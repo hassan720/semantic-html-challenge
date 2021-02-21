@@ -15,22 +15,43 @@ tr:nth-child(odd){
 }
 tr:nth-child(even){
   background-color: #e495e4;
+
 }
 
 thead > tr, tfoot > tr {
   font-family: 'Rock Salt', cursive;
   color: white;
+  height: 45px;
   background-image: url("./assets/leopardskin.jpg");
 }
 
+
 table, tr, td {
-    
+
     table-layout: fixed;
     width: 100%;
     text-align: center;
-    vertical-align: middle;
+    border-collapse: collapse;
+    padding: 5px;
+
+
 }
 tbody > tr {
   background-image: url("./assets/noise.png");
 
+
+}
+table > tfoot {
+  border-collapse: collapse;
+
+}
+h3 {
+text-align: right;
+font-family: 'Rock Salt', cursive;
+}
+.footerAlbums{
+  text-align: right;
+}
+.footerNumber{
+  text-align: left;
 }
